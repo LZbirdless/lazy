@@ -1,0 +1,11 @@
+name: filesystem-server
+version: 1.0.0
+schema: v1
+mcpServers:
+  - name: filesystem
+    command: npx
+    args:
+      - -y
+      - "@modelcontextprotocol/server-filesystem"
+      - .
+    env: {}
