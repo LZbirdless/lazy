@@ -1,3 +1,3 @@
 export default function CreateUserPage() {
-  return <h1>tạo User</h1>;
+  return <h1>Create User</h1>;
 }
